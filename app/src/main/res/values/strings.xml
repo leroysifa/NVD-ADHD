@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NVD-ADHD</string>
+    <string name="inattention" />
+    <string name="hyperactivity" />
+    <string name="impulsivity" />
+    <string name="organization_timemanagement" />
+    <string name="organization_time_management" />
+    <string name="distractibility" />
+</resources>

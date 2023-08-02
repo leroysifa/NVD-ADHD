@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+ <TextView
+     android:id="@+id/category1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/inattention"
+     android:textSize="18sp"
+     android:textStyle="bold"/>
+
+ <CheckBox
+     android:id="@+id/response1_1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you often have difficulty sustaining on tasks or activities, such as work or school assignments?"/>
+
+ <CheckBox
+     android:id="@+id/response1_2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you frequently make careless mistakes or overlook important details?"/>
+
+ <CheckBox
+     android:id="@+id/response1_3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you have difficulty organizing tasks and activities?"/>
+
+ <CheckBox
+     android:id="@+id/response1_4"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you often forget or lose important items necessary for tasks or activities?"/>
+
+ <CheckBox
+     android:id="@+id/response1_5"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you find it challenging to follow through on instructions or complete tasks?"/>
+
+ <TextView
+     android:id="@+id/category2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/hyperactivity"
+     android:textSize="18sp"
+     android:textStyle="bold"/>
+
+ <CheckBox
+     android:id="@+id/response2_1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you often feel restless or fidgety?"/>
+
+ <CheckBox
+     android:id="@+id/response2_2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you have difficulty staying seated for extended periods, such as during meetings or classes?"/>
+
+ <CheckBox
+     android:id="@+id/response2_3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you frequently feel a strong internal drive to engage in excessive physical activity?"/>
+
+ <CheckBox
+     android:id="@+id/response2_4"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you talk excessively or find it difficult to engage in activities quietly?"/>
+
+ <TextView
+     android:id="@+id/category3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/impulsivity"
+     android:textSize="18sp"
+     android:textStyle="bold"/>
+
+ <CheckBox
+     android:id="@+id/response3_1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you often act without thinking or blurt out answers before questions have been completed?"/>
+
+ <CheckBox
+     android:id="@+id/response3_2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you have difficulty waiting for your turn in conversations or activities?"/>
+
+ <CheckBox
+     android:id="@+id/response3_3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you frequently interrupt or intrude on others during their activities or conversations?"/>
+
+ <CheckBox
+     android:id="@+id/response3_4"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you struggle with impulse control in various aspects of your life?"/>
+
+ <TextView
+     android:id="@+id/category4"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/organization_time_management"
+     android:textSize="18sp"
+     android:textStyle="bold"/>
+
+ <CheckBox
+     android:id="@+id/response4_1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you frequently struggle with organizing tasks, materials, or schedules?"/>
+
+ <CheckBox
+     android:id="@+id/response4_2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you find it challenging to prioritize tasks or manage your time effectively?"/>
+
+ <CheckBox
+     android:id="@+id/response4_3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you often procrastinate or have difficulty starting and completing tasks?"/>
+
+  <TextView
+      android:id="@+id/category5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/distractibility"
+      android:textSize="18sp"
+      android:textStyle="bold"/>
+
+ <CheckBox
+     android:id="@+id/response5_1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you frequently get easily distracted by external stimuli or unrelated thoughts?"/>
+
+ <CheckBox
+     android:id="@+id/response5_2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you have difficulty maintaining focus on tasks or conversations when there are distractions
+present?"/>
+
+ <CheckBox
+     android:id="@+id/response5_3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Do you frequently shift from one task or activity to another without completing the initial task?"/>
+</LinearLayout>
